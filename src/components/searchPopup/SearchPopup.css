@@ -1,0 +1,69 @@
+.searchPopup {
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    /* position: sticky; */
+    top: 10px;
+    height: max-content;
+  }
+  
+  .searchTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .searchItem{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    border: none;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .searchItem>label{
+    font-size: 12px;
+  }
+  
+  .searchItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+  }
+  .searchItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .listOption{
+    padding: 10px;
+  }
+  
+  .listOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .input{
+    width: 50px;
+  }
+  
+  .searchPopup>button{
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
